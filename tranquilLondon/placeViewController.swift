@@ -35,7 +35,8 @@ class placeViewController: UIViewController {
         tubeLabel.text = placeTube
         categoryLabel.text = placeCategory
         descTextView.text = placeDesc
-        mainImage.image = UIImage(named: placeImage)
+        mainImage.image = UIImage(named: placeImage+placeLocation)
+        print(placeImage+placeLocation)
 
         // Do any additional setup after loading the view.
     }

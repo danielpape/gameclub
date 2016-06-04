@@ -68,7 +68,7 @@ class placesTableViewController: UITableViewController {
         let cell:placeTableViewCell = (tableView.dequeueReusableCellWithIdentifier("cell") as? placeTableViewCell)!
         cell.placeNameLabel.text = String(VC.places[indexPath.row].title!)
         cell.placeDistanceLabel.text = String(VC.places[indexPath.row].locationName)
-        cell.placeImage.image = UIImage(named: String(VC.places[indexPath.row].placeImage))
+        cell.placeImage.image = UIImage(named: String(VC.places[indexPath.row].placeImage)+(VC.places[indexPath.row].locationName))
         return cell
     }
 

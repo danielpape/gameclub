@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                     if let placeJSON = placeJSON.array,
                         Place = Place.fromJSON(placeJSON) {
                             places.append(Place)
-                            print(places)
+//                            print(places)
                     }
                 }
         }
