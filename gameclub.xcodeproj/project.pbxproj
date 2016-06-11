@@ -37,6 +37,11 @@
 		295CC8DE1C8D6AF40051E31B /* placesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295CC8DD1C8D6AF40051E31B /* placesTableViewController.swift */; };
 		295CC8E01C8D70B80051E31B /* placeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295CC8DF1C8D70B80051E31B /* placeViewController.swift */; };
 		295CC8E21C8EB7890051E31B /* placeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295CC8E11C8EB7890051E31B /* placeTableViewCell.swift */; };
+		2980250C1D042339006CE644 /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 293B6AC81D0363AC00416C39 /* roboto-regular.ttf */; };
+		2980250D1D042345006CE644 /* roboto-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 293B6AC71D0363AC00416C39 /* roboto-medium.ttf */; };
+		2980250E1D042349006CE644 /* roboto-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 293B6AC61D0363AC00416C39 /* roboto-light.ttf */; };
+		2980250F1D04234D006CE644 /* roboto-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 293B6AC51D0363AC00416C39 /* roboto-bold.ttf */; };
+		298025111D043F79006CE644 /* tubeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 298025101D043F79006CE644 /* tubeIcon.png */; };
 		29873C631C97F769006DA402 /* containerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29873C621C97F769006DA402 /* containerVC.swift */; };
 		29F0C2F81C95AC0900ACFF87 /* place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0C2F71C95AC0900ACFF87 /* place.swift */; };
 		29F0C2FA1C95AE7900ACFF87 /* VCmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F0C2F91C95AE7900ACFF87 /* VCmapView.swift */; };
@@ -82,6 +87,10 @@
 		29046C461D0352A700E4B6E9 /* loadingdalston.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingdalston.png; sourceTree = "<group>"; };
 		29046C481D0352EB00E4B6E9 /* loadingstratford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingstratford.png; sourceTree = "<group>"; };
 		29046C4A1D03531300E4B6E9 /* darkspherelambeth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkspherelambeth.png; sourceTree = "<group>"; };
+		293B6AC51D0363AC00416C39 /* roboto-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.ttf"; sourceTree = "<group>"; };
+		293B6AC61D0363AC00416C39 /* roboto-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.ttf"; sourceTree = "<group>"; };
+		293B6AC71D0363AC00416C39 /* roboto-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.ttf"; sourceTree = "<group>"; };
+		293B6AC81D0363AC00416C39 /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
 		29586F0D1C8B45EB004F877E /* Gameclub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gameclub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29586F101C8B45EB004F877E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29586F121C8B45EB004F877E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +108,7 @@
 		295CC8DD1C8D6AF40051E31B /* placesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placesTableViewController.swift; sourceTree = "<group>"; };
 		295CC8DF1C8D70B80051E31B /* placeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeViewController.swift; sourceTree = "<group>"; };
 		295CC8E11C8EB7890051E31B /* placeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeTableViewCell.swift; sourceTree = "<group>"; };
+		298025101D043F79006CE644 /* tubeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubeIcon.png; sourceTree = "<group>"; };
 		29873C621C97F769006DA402 /* containerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = containerVC.swift; sourceTree = "<group>"; };
 		29F0C2F71C95AC0900ACFF87 /* place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = place.swift; sourceTree = "<group>"; };
 		29F0C2F91C95AE7900ACFF87 /* VCmapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCmapView.swift; sourceTree = "<group>"; };
@@ -132,6 +142,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293B6AC41D03629800416C39 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				298025101D043F79006CE644 /* tubeIcon.png */,
+				29046C261D03232B00E4B6E9 /* orcsnestSoho.png */,
+				29046C281D034B2500E4B6E9 /* warhammerSoho.png */,
+				29046C2A1D034D3E00E4B6E9 /* LeisureGamesFinchley.png */,
+				29046C2C1D034E0500E4B6E9 /* chessandbridgemarylebone.png */,
+				29046C2E1D034EAB00E4B6E9 /* draughtshackney.png */,
+				29046C301D034F0600E4B6E9 /* villagegamescamden.png */,
+				29046C321D0350C900E4B6E9 /* gamesworkshopputney.png */,
+				29046C341D0350E900E4B6E9 /* warhammerchiswick.png */,
+				29046C361D03510200E4B6E9 /* gamesworkshopmuswell hill.png */,
+				29046C381D03511B00E4B6E9 /* gamesworkshopcroydon.png */,
+				29046C3A1D03513400E4B6E9 /* gamesworkshoptwickenham.png */,
+				29046C3C1D03514A00E4B6E9 /* gamesworkshopbromley.png */,
+				29046C3E1D03515D00E4B6E9 /* warhammerkingston.png */,
+				29046C401D03517000E4B6E9 /* gamesworkshopenfield.png */,
+				29046C421D03518400E4B6E9 /* gamesworkshopsutton.png */,
+				29046C441D03519C00E4B6E9 /* gamesworkshopbarnet.png */,
+				29046C461D0352A700E4B6E9 /* loadingdalston.png */,
+				29046C481D0352EB00E4B6E9 /* loadingstratford.png */,
+				29046C4A1D03531300E4B6E9 /* darkspherelambeth.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		293B6AC91D0363B400416C39 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				293B6AC51D0363AC00416C39 /* roboto-bold.ttf */,
+				293B6AC61D0363AC00416C39 /* roboto-light.ttf */,
+				293B6AC71D0363AC00416C39 /* roboto-medium.ttf */,
+				293B6AC81D0363AC00416C39 /* roboto-regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		29586F041C8B45EA004F877E = {
 			isa = PBXGroup;
 			children = (
@@ -171,25 +219,8 @@
 				295CC8DF1C8D70B80051E31B /* placeViewController.swift */,
 				295CC8E11C8EB7890051E31B /* placeTableViewCell.swift */,
 				29F0C2FD1C95E03000ACFF87 /* tranquilPlaces.json */,
-				29046C261D03232B00E4B6E9 /* orcsnestSoho.png */,
-				29046C281D034B2500E4B6E9 /* warhammerSoho.png */,
-				29046C2A1D034D3E00E4B6E9 /* LeisureGamesFinchley.png */,
-				29046C2C1D034E0500E4B6E9 /* chessandbridgemarylebone.png */,
-				29046C2E1D034EAB00E4B6E9 /* draughtshackney.png */,
-				29046C301D034F0600E4B6E9 /* villagegamescamden.png */,
-				29046C321D0350C900E4B6E9 /* gamesworkshopputney.png */,
-				29046C341D0350E900E4B6E9 /* warhammerchiswick.png */,
-				29046C361D03510200E4B6E9 /* gamesworkshopmuswell hill.png */,
-				29046C381D03511B00E4B6E9 /* gamesworkshopcroydon.png */,
-				29046C3A1D03513400E4B6E9 /* gamesworkshoptwickenham.png */,
-				29046C3C1D03514A00E4B6E9 /* gamesworkshopbromley.png */,
-				29046C3E1D03515D00E4B6E9 /* warhammerkingston.png */,
-				29046C401D03517000E4B6E9 /* gamesworkshopenfield.png */,
-				29046C421D03518400E4B6E9 /* gamesworkshopsutton.png */,
-				29046C441D03519C00E4B6E9 /* gamesworkshopbarnet.png */,
-				29046C461D0352A700E4B6E9 /* loadingdalston.png */,
-				29046C481D0352EB00E4B6E9 /* loadingstratford.png */,
-				29046C4A1D03531300E4B6E9 /* darkspherelambeth.png */,
+				293B6AC91D0363B400416C39 /* Fonts */,
+				293B6AC41D03629800416C39 /* Images */,
 			);
 			name = gameclub;
 			path = tranquilLondon;
@@ -318,6 +349,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2980250F1D04234D006CE644 /* roboto-bold.ttf in Resources */,
+				2980250E1D042349006CE644 /* roboto-light.ttf in Resources */,
+				2980250D1D042345006CE644 /* roboto-medium.ttf in Resources */,
+				2980250C1D042339006CE644 /* roboto-regular.ttf in Resources */,
 				29046C451D03519C00E4B6E9 /* gamesworkshopbarnet.png in Resources */,
 				29F0C2FE1C95E03000ACFF87 /* tranquilPlaces.json in Resources */,
 				29586F1E1C8B45EB004F877E /* LaunchScreen.storyboard in Resources */,
@@ -326,6 +361,7 @@
 				29046C291D034B2500E4B6E9 /* warhammerSoho.png in Resources */,
 				29046C271D03232B00E4B6E9 /* orcsnestSoho.png in Resources */,
 				29046C371D03510200E4B6E9 /* gamesworkshopmuswell hill.png in Resources */,
+				298025111D043F79006CE644 /* tubeIcon.png in Resources */,
 				29046C351D0350E900E4B6E9 /* warhammerchiswick.png in Resources */,
 				29046C491D0352EB00E4B6E9 /* loadingstratford.png in Resources */,
 				29586F1B1C8B45EB004F877E /* Assets.xcassets in Resources */,
